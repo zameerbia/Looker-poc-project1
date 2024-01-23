@@ -1,0 +1,352 @@
+explore: clinical_performance{}
+
+view: clinical_performance {
+  derived_table: {
+    sql:
+      SELECT '122022' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 85 as metric_numerator_value, 229 as metric_denominator_value, 40 as points_earned, '2022-12-01 00:00:00' as period_date, 75.0 as metric_num_pm, 200.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 13 as metric_numerator_value, 532 as metric_denominator_value, 42 as points_earned, '2023-01-01 00:00:00' as period_date, 85.0 as metric_num_pm, 229.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 65 as metric_numerator_value, 241 as metric_denominator_value, 15 as points_earned, '2023-02-01 00:00:00' as period_date, 13.0 as metric_num_pm, 532.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 19 as metric_numerator_value, 972 as metric_denominator_value, 46 as points_earned, '2023-03-01 00:00:00' as period_date, 65.0 as metric_num_pm, 241.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 73 as metric_numerator_value, 506 as metric_denominator_value, 30 as points_earned, '2023-04-01 00:00:00' as period_date, 19.0 as metric_num_pm, 972.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 77 as metric_numerator_value, 394 as metric_denominator_value, 8 as points_earned, '2023-05-01 00:00:00' as period_date, 73.0 as metric_num_pm, 506.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 95 as metric_numerator_value, 380 as metric_denominator_value, 24 as points_earned, '2023-06-01 00:00:00' as period_date, 77.0 as metric_num_pm, 394.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 24 as metric_numerator_value, 983 as metric_denominator_value, 2 as points_earned, '2023-07-01 00:00:00' as period_date, 95.0 as metric_num_pm, 380.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 12 as metric_numerator_value, 404 as metric_denominator_value, 18 as points_earned, '2023-08-01 00:00:00' as period_date, 24.0 as metric_num_pm, 983.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 48 as metric_numerator_value, 186 as metric_denominator_value, 17 as points_earned, '2023-09-01 00:00:00' as period_date, 12.0 as metric_num_pm, 404.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 92 as metric_numerator_value, 480 as metric_denominator_value, 33 as points_earned, '2023-10-01 00:00:00' as period_date, 48.0 as metric_num_pm, 186.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 58 as metric_numerator_value, 792 as metric_denominator_value, 7 as points_earned, '2023-11-01 00:00:00' as period_date, 92.0 as metric_num_pm, 480.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 27 as metric_numerator_value, 577 as metric_denominator_value, 14 as points_earned, '2023-12-01 00:00:00' as period_date, 58.0 as metric_num_pm, 792.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1001' as department_id, 'Aurora' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 74 as metric_numerator_value, 722 as metric_denominator_value, 50 as points_earned, '2024-01-01 00:00:00' as period_date, 27.0 as metric_num_pm, 577.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 11 as metric_numerator_value, 536 as metric_denominator_value, 1 as points_earned, '2022-12-01 00:00:00' as period_date, 12.0 as metric_num_pm, 300.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 89 as metric_numerator_value, 782 as metric_denominator_value, 48 as points_earned, '2023-01-01 00:00:00' as period_date, 11.0 as metric_num_pm, 536.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 75 as metric_numerator_value, 430 as metric_denominator_value, 2 as points_earned, '2023-02-01 00:00:00' as period_date, 89.0 as metric_num_pm, 782.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 57 as metric_numerator_value, 552 as metric_denominator_value, 11 as points_earned, '2023-03-01 00:00:00' as period_date, 75.0 as metric_num_pm, 430.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 62 as metric_numerator_value, 845 as metric_denominator_value, 48 as points_earned, '2023-04-01 00:00:00' as period_date, 57.0 as metric_num_pm, 552.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 14 as metric_numerator_value, 727 as metric_denominator_value, 48 as points_earned, '2023-05-01 00:00:00' as period_date, 62.0 as metric_num_pm, 845.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 98 as metric_numerator_value, 693 as metric_denominator_value, 39 as points_earned, '2023-06-01 00:00:00' as period_date, 14.0 as metric_num_pm, 727.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 60 as metric_numerator_value, 221 as metric_denominator_value, 36 as points_earned, '2023-07-01 00:00:00' as period_date, 98.0 as metric_num_pm, 693.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 23 as metric_numerator_value, 406 as metric_denominator_value, 26 as points_earned, '2023-08-01 00:00:00' as period_date, 60.0 as metric_num_pm, 221.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 54 as metric_numerator_value, 550 as metric_denominator_value, 32 as points_earned, '2023-09-01 00:00:00' as period_date, 23.0 as metric_num_pm, 406.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 92 as metric_numerator_value, 217 as metric_denominator_value, 36 as points_earned, '2023-10-01 00:00:00' as period_date, 54.0 as metric_num_pm, 550.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 76 as metric_numerator_value, 676 as metric_denominator_value, 3 as points_earned, '2023-11-01 00:00:00' as period_date, 92.0 as metric_num_pm, 217.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 63 as metric_numerator_value, 426 as metric_denominator_value, 40 as points_earned, '2023-12-01 00:00:00' as period_date, 76.0 as metric_num_pm, 676.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1001' as department_id, 'Aurora' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 65 as metric_numerator_value, 449 as metric_denominator_value, 46 as points_earned, '2024-01-01 00:00:00' as period_date, 63.0 as metric_num_pm, 426.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 60 as metric_numerator_value, 941 as metric_denominator_value, 10 as points_earned, '2022-12-01 00:00:00' as period_date,80.00 as metric_num_pm, 400.00 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 98 as metric_numerator_value, 810 as metric_denominator_value, 50 as points_earned, '2023-01-01 00:00:00' as period_date, 60.0 as metric_num_pm, 941.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 34 as metric_numerator_value, 672 as metric_denominator_value, 42 as points_earned, '2023-02-01 00:00:00' as period_date, 98.0 as metric_num_pm, 810.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 61 as metric_numerator_value, 350 as metric_denominator_value, 5 as points_earned, '2023-03-01 00:00:00' as period_date, 34.0 as metric_num_pm, 672.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 39 as metric_numerator_value, 493 as metric_denominator_value, 17 as points_earned, '2023-04-01 00:00:00' as period_date, 61.0 as metric_num_pm, 350.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 21 as metric_numerator_value, 220 as metric_denominator_value, 43 as points_earned, '2023-05-01 00:00:00' as period_date, 39.0 as metric_num_pm, 493.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 69 as metric_numerator_value, 493 as metric_denominator_value, 2 as points_earned, '2023-06-01 00:00:00' as period_date, 21.0 as metric_num_pm, 220.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 54 as metric_numerator_value, 581 as metric_denominator_value, 28 as points_earned, '2023-07-01 00:00:00' as period_date, 69.0 as metric_num_pm, 493.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 35 as metric_numerator_value, 920 as metric_denominator_value, 11 as points_earned, '2023-08-01 00:00:00' as period_date, 54.0 as metric_num_pm, 581.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 56 as metric_numerator_value, 663 as metric_denominator_value, 42 as points_earned, '2023-09-01 00:00:00' as period_date, 35.0 as metric_num_pm, 920.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 58 as metric_numerator_value, 616 as metric_denominator_value, 9 as points_earned, '2023-10-01 00:00:00' as period_date, 56.0 as metric_num_pm, 663.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 30 as metric_numerator_value, 315 as metric_denominator_value, 40 as points_earned, '2023-11-01 00:00:00' as period_date, 58.0 as metric_num_pm, 616.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 96 as metric_numerator_value, 550 as metric_denominator_value, 12 as points_earned, '2023-12-01 00:00:00' as period_date, 30.0 as metric_num_pm, 315.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1001' as department_id, 'Aurora' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 26 as metric_numerator_value, 453 as metric_denominator_value, 30 as points_earned, '2024-01-01 00:00:00' as period_date, 96.0 as metric_num_pm, 550.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 63 as metric_numerator_value, 627 as metric_denominator_value, 12 as points_earned, '2022-12-01 00:00:00' as period_date, 80.00 as metric_num_pm, 500.00 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 38 as metric_numerator_value, 935 as metric_denominator_value, 16 as points_earned, '2023-01-01 00:00:00' as period_date, 63.0 as metric_num_pm, 627.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 62 as metric_numerator_value, 481 as metric_denominator_value, 23 as points_earned, '2023-02-01 00:00:00' as period_date, 38.0 as metric_num_pm, 935.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 70 as metric_numerator_value, 214 as metric_denominator_value, 29 as points_earned, '2023-03-01 00:00:00' as period_date, 62.0 as metric_num_pm, 481.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 48 as metric_numerator_value, 883 as metric_denominator_value, 36 as points_earned, '2023-04-01 00:00:00' as period_date, 70.0 as metric_num_pm, 214.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 76 as metric_numerator_value, 610 as metric_denominator_value, 43 as points_earned, '2023-05-01 00:00:00' as period_date, 48.0 as metric_num_pm, 883.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 91 as metric_numerator_value, 945 as metric_denominator_value, 14 as points_earned, '2023-06-01 00:00:00' as period_date, 76.0 as metric_num_pm, 610.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 48 as metric_numerator_value, 447 as metric_denominator_value, 43 as points_earned, '2023-07-01 00:00:00' as period_date, 91.0 as metric_num_pm, 945.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 71 as metric_numerator_value, 845 as metric_denominator_value, 10 as points_earned, '2023-08-01 00:00:00' as period_date, 48.0 as metric_num_pm, 447.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 69 as metric_numerator_value, 499 as metric_denominator_value, 11 as points_earned, '2023-09-01 00:00:00' as period_date, 71.0 as metric_num_pm, 845.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 47 as metric_numerator_value, 221 as metric_denominator_value, 2 as points_earned, '2023-10-01 00:00:00' as period_date, 69.0 as metric_num_pm, 499.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 31 as metric_numerator_value, 944 as metric_denominator_value, 47 as points_earned, '2023-11-01 00:00:00' as period_date, 47.0 as metric_num_pm, 221.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 77 as metric_numerator_value, 941 as metric_denominator_value, 50 as points_earned, '2023-12-01 00:00:00' as period_date, 31.0 as metric_num_pm, 944.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1001' as department_id, 'Aurora' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 78 as metric_numerator_value, 868 as metric_denominator_value, 50 as points_earned, '2024-01-01 00:00:00' as period_date, 77.0 as metric_num_pm, 941.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 26 as metric_numerator_value, 654 as metric_denominator_value, 24 as points_earned, '2022-12-01 00:00:00' as period_date, 20 as metric_num_pm, 600.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 24 as metric_numerator_value, 685 as metric_denominator_value, 50 as points_earned, '2023-01-01 00:00:00' as period_date, 26.0 as metric_num_pm, 654.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 92 as metric_numerator_value, 991 as metric_denominator_value, 12 as points_earned, '2023-02-01 00:00:00' as period_date, 24.0 as metric_num_pm, 685.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 27 as metric_numerator_value, 298 as metric_denominator_value, 26 as points_earned, '2023-03-01 00:00:00' as period_date, 92.0 as metric_num_pm, 991.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 68 as metric_numerator_value, 442 as metric_denominator_value, 48 as points_earned, '2023-04-01 00:00:00' as period_date, 27.0 as metric_num_pm, 298.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 96 as metric_numerator_value, 860 as metric_denominator_value, 2 as points_earned, '2023-05-01 00:00:00' as period_date, 68.0 as metric_num_pm, 442.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 82 as metric_numerator_value, 342 as metric_denominator_value, 31 as points_earned, '2023-06-01 00:00:00' as period_date, 96.0 as metric_num_pm, 860.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 25 as metric_numerator_value, 126 as metric_denominator_value, 45 as points_earned, '2023-07-01 00:00:00' as period_date, 82.0 as metric_num_pm, 342.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 82 as metric_numerator_value, 513 as metric_denominator_value, 28 as points_earned, '2023-08-01 00:00:00' as period_date, 25.0 as metric_num_pm, 126.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 49 as metric_numerator_value, 879 as metric_denominator_value, 3 as points_earned, '2023-09-01 00:00:00' as period_date, 82.0 as metric_num_pm, 513.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 15 as metric_numerator_value, 932 as metric_denominator_value, 42 as points_earned, '2023-10-01 00:00:00' as period_date, 49.0 as metric_num_pm, 879.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 42 as metric_numerator_value, 597 as metric_denominator_value, 13 as points_earned, '2023-11-01 00:00:00' as period_date, 15.0 as metric_num_pm, 932.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 77 as metric_numerator_value, 458 as metric_denominator_value, 16 as points_earned, '2023-12-01 00:00:00' as period_date, 42.0 as metric_num_pm, 597.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1001' as department_id, 'Aurora' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 12 as metric_numerator_value, 818 as metric_denominator_value, 25 as points_earned, '2024-01-01 00:00:00' as period_date, 77.0 as metric_num_pm, 458.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 20 as metric_numerator_value, 658 as metric_denominator_value, 13 as points_earned, '2022-12-01 00:00:00' as period_date, 14 as metric_num_pm, 300 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 38 as metric_numerator_value, 803 as metric_denominator_value, 21 as points_earned, '2023-01-01 00:00:00' as period_date, 20.0 as metric_num_pm, 658.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 28 as metric_numerator_value, 211 as metric_denominator_value, 43 as points_earned, '2023-02-01 00:00:00' as period_date, 38.0 as metric_num_pm, 803.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 63 as metric_numerator_value, 951 as metric_denominator_value, 26 as points_earned, '2023-03-01 00:00:00' as period_date, 28.0 as metric_num_pm, 211.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 15 as metric_numerator_value, 874 as metric_denominator_value, 36 as points_earned, '2023-04-01 00:00:00' as period_date, 63.0 as metric_num_pm, 951.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 89 as metric_numerator_value, 391 as metric_denominator_value, 20 as points_earned, '2023-05-01 00:00:00' as period_date, 15.0 as metric_num_pm, 874.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 61 as metric_numerator_value, 239 as metric_denominator_value, 2 as points_earned, '2023-06-01 00:00:00' as period_date, 89.0 as metric_num_pm, 391.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 46 as metric_numerator_value, 150 as metric_denominator_value, 38 as points_earned, '2023-07-01 00:00:00' as period_date, 61.0 as metric_num_pm, 239.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 81 as metric_numerator_value, 969 as metric_denominator_value, 19 as points_earned, '2023-08-01 00:00:00' as period_date, 46.0 as metric_num_pm, 150.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 100 as metric_numerator_value, 782 as metric_denominator_value, 42 as points_earned, '2023-09-01 00:00:00' as period_date, 81.0 as metric_num_pm, 969.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 34 as metric_numerator_value, 518 as metric_denominator_value, 18 as points_earned, '2023-10-01 00:00:00' as period_date, 100.0 as metric_num_pm, 782.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 52 as metric_numerator_value, 597 as metric_denominator_value, 28 as points_earned, '2023-11-01 00:00:00' as period_date, 34.0 as metric_num_pm, 518.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 36 as metric_numerator_value, 707 as metric_denominator_value, 45 as points_earned, '2023-12-01 00:00:00' as period_date, 52.0 as metric_num_pm, 597.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1001' as department_id, 'Aurora' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 83 as metric_numerator_value, 606 as metric_denominator_value, 16 as points_earned, '2024-01-01 00:00:00' as period_date, 36.0 as metric_num_pm, 707.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 17 as metric_numerator_value, 206 as metric_denominator_value, 23 as points_earned, '2022-12-01 00:00:00' as period_date, 12.0 as metric_num_pm, 200.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 98 as metric_numerator_value, 312 as metric_denominator_value, 22 as points_earned, '2023-01-01 00:00:00' as period_date, 17.0 as metric_num_pm, 206.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 18 as metric_numerator_value, 474 as metric_denominator_value, 48 as points_earned, '2023-02-01 00:00:00' as period_date, 98.0 as metric_num_pm, 312.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 17 as metric_numerator_value, 228 as metric_denominator_value, 8 as points_earned, '2023-03-01 00:00:00' as period_date, 18.0 as metric_num_pm, 474.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 45 as metric_numerator_value, 934 as metric_denominator_value, 24 as points_earned, '2023-04-01 00:00:00' as period_date, 17.0 as metric_num_pm, 228.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 15 as metric_numerator_value, 661 as metric_denominator_value, 49 as points_earned, '2023-05-01 00:00:00' as period_date, 45.0 as metric_num_pm, 934.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 87 as metric_numerator_value, 393 as metric_denominator_value, 41 as points_earned, '2023-06-01 00:00:00' as period_date, 15.0 as metric_num_pm, 661.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 88 as metric_numerator_value, 414 as metric_denominator_value, 5 as points_earned, '2023-07-01 00:00:00' as period_date, 87.0 as metric_num_pm, 393.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 25 as metric_numerator_value, 620 as metric_denominator_value, 4 as points_earned, '2023-08-01 00:00:00' as period_date, 88.0 as metric_num_pm, 414.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 31 as metric_numerator_value, 492 as metric_denominator_value, 33 as points_earned, '2023-09-01 00:00:00' as period_date, 25.0 as metric_num_pm, 620.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 44 as metric_numerator_value, 1000 as metric_denominator_value, 24 as points_earned, '2023-10-01 00:00:00' as period_date, 31.0 as metric_num_pm, 492.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 36 as metric_numerator_value, 705 as metric_denominator_value, 12 as points_earned, '2023-11-01 00:00:00' as period_date, 44.0 as metric_num_pm, 1000.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 85 as metric_numerator_value, 500 as metric_denominator_value, 48 as points_earned, '2023-12-01 00:00:00' as period_date, 36.0 as metric_num_pm, 705.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1001' as department_id, 'Aurora' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 84 as metric_numerator_value, 289 as metric_denominator_value, 13 as points_earned, '2024-01-01 00:00:00' as period_date, 85.0 as metric_num_pm, 500.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 77 as metric_numerator_value, 691 as metric_denominator_value, 9 as points_earned, '2022-12-01 00:00:00' as period_date, 55.0 as metric_num_pm, 565.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 69 as metric_numerator_value, 500 as metric_denominator_value, 31 as points_earned, '2023-01-01 00:00:00' as period_date, 77.0 as metric_num_pm, 691.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 42 as metric_numerator_value, 284 as metric_denominator_value, 39 as points_earned, '2023-02-01 00:00:00' as period_date, 69.0 as metric_num_pm, 500.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 80 as metric_numerator_value, 208 as metric_denominator_value, 7 as points_earned, '2023-03-01 00:00:00' as period_date, 42.0 as metric_num_pm, 284.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 11 as metric_numerator_value, 350 as metric_denominator_value, 23 as points_earned, '2023-04-01 00:00:00' as period_date, 80.0 as metric_num_pm, 208.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 15 as metric_numerator_value, 391 as metric_denominator_value, 19 as points_earned, '2023-05-01 00:00:00' as period_date, 11.0 as metric_num_pm, 350.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 89 as metric_numerator_value, 479 as metric_denominator_value, 8 as points_earned, '2023-06-01 00:00:00' as period_date, 15.0 as metric_num_pm, 391.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 96 as metric_numerator_value, 423 as metric_denominator_value, 40 as points_earned, '2023-07-01 00:00:00' as period_date, 89.0 as metric_num_pm, 479.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 61 as metric_numerator_value, 494 as metric_denominator_value, 23 as points_earned, '2023-08-01 00:00:00' as period_date, 96.0 as metric_num_pm, 423.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 58 as metric_numerator_value, 971 as metric_denominator_value, 6 as points_earned, '2023-09-01 00:00:00' as period_date, 61.0 as metric_num_pm, 494.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 52 as metric_numerator_value, 840 as metric_denominator_value, 34 as points_earned, '2023-10-01 00:00:00' as period_date, 58.0 as metric_num_pm, 971.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 44 as metric_numerator_value, 382 as metric_denominator_value, 24 as points_earned, '2023-11-01 00:00:00' as period_date, 52.0 as metric_num_pm, 840.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 10 as metric_numerator_value, 657 as metric_denominator_value, 21 as points_earned, '2023-12-01 00:00:00' as period_date, 44.0 as metric_num_pm, 382.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1002' as department_id, 'Borealis' as department_name, '7' as metric_id, 'Follow-up Rate' as metric_name, 88 as metric_numerator_value, 939 as metric_denominator_value, 15 as points_earned, '2024-01-01 00:00:00' as period_date, 10.0 as metric_num_pm, 657.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 71 as metric_numerator_value, 993 as metric_denominator_value, 46 as points_earned, '2022-12-01 00:00:00' as period_date, 11.0 as metric_num_pm, 499.00 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 74 as metric_numerator_value, 775 as metric_denominator_value, 49 as points_earned, '2023-01-01 00:00:00' as period_date, 71.0 as metric_num_pm, 993.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 33 as metric_numerator_value, 484 as metric_denominator_value, 17 as points_earned, '2023-02-01 00:00:00' as period_date, 74.0 as metric_num_pm, 775.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 23 as metric_numerator_value, 474 as metric_denominator_value, 12 as points_earned, '2023-03-01 00:00:00' as period_date, 33.0 as metric_num_pm, 484.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 83 as metric_numerator_value, 145 as metric_denominator_value, 50 as points_earned, '2023-04-01 00:00:00' as period_date, 23.0 as metric_num_pm, 474.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 36 as metric_numerator_value, 126 as metric_denominator_value, 1 as points_earned, '2023-05-01 00:00:00' as period_date, 83.0 as metric_num_pm, 145.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 14 as metric_numerator_value, 308 as metric_denominator_value, 44 as points_earned, '2023-06-01 00:00:00' as period_date, 36.0 as metric_num_pm, 126.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 40 as metric_numerator_value, 607 as metric_denominator_value, 14 as points_earned, '2023-07-01 00:00:00' as period_date, 14.0 as metric_num_pm, 308.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 68 as metric_numerator_value, 950 as metric_denominator_value, 3 as points_earned, '2023-08-01 00:00:00' as period_date, 40.0 as metric_num_pm, 607.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 62 as metric_numerator_value, 144 as metric_denominator_value, 9 as points_earned, '2023-09-01 00:00:00' as period_date, 68.0 as metric_num_pm, 950.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 28 as metric_numerator_value, 534 as metric_denominator_value, 23 as points_earned, '2023-10-01 00:00:00' as period_date, 62.0 as metric_num_pm, 144.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 86 as metric_numerator_value, 206 as metric_denominator_value, 13 as points_earned, '2023-11-01 00:00:00' as period_date, 28.0 as metric_num_pm, 534.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 61 as metric_numerator_value, 417 as metric_denominator_value, 39 as points_earned, '2023-12-01 00:00:00' as period_date, 86.0 as metric_num_pm, 206.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1002' as department_id, 'Borealis' as department_name, '2' as metric_id, 'Hospitalization PPPY Rate' as metric_name, 65 as metric_numerator_value, 463 as metric_denominator_value, 28 as points_earned, '2024-01-01 00:00:00' as period_date, 61.0 as metric_num_pm, 417.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 12 as metric_numerator_value, 125 as metric_denominator_value, 41 as points_earned, '2022-12-01 00:00:00' as period_date, 12.0 as metric_num_pm, 125.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 72 as metric_numerator_value, 365 as metric_denominator_value, 22 as points_earned, '2023-01-01 00:00:00' as period_date, 12.0 as metric_num_pm, 125.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 16 as metric_numerator_value, 373 as metric_denominator_value, 16 as points_earned, '2023-02-01 00:00:00' as period_date, 72.0 as metric_num_pm, 365.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 30 as metric_numerator_value, 166 as metric_denominator_value, 24 as points_earned, '2023-03-01 00:00:00' as period_date, 16.0 as metric_num_pm, 373.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 62 as metric_numerator_value, 699 as metric_denominator_value, 30 as points_earned, '2023-04-01 00:00:00' as period_date, 30.0 as metric_num_pm, 166.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 50 as metric_numerator_value, 317 as metric_denominator_value, 21 as points_earned, '2023-05-01 00:00:00' as period_date, 62.0 as metric_num_pm, 699.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 58 as metric_numerator_value, 526 as metric_denominator_value, 8 as points_earned, '2023-06-01 00:00:00' as period_date, 50.0 as metric_num_pm, 317.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 79 as metric_numerator_value, 539 as metric_denominator_value, 38 as points_earned, '2023-07-01 00:00:00' as period_date, 58.0 as metric_num_pm, 526.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 29 as metric_numerator_value, 978 as metric_denominator_value, 33 as points_earned, '2023-08-01 00:00:00' as period_date, 79.0 as metric_num_pm, 539.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 59 as metric_numerator_value, 789 as metric_denominator_value, 39 as points_earned, '2023-09-01 00:00:00' as period_date, 29.0 as metric_num_pm, 978.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 100 as metric_numerator_value, 555 as metric_denominator_value, 31 as points_earned, '2023-10-01 00:00:00' as period_date, 59.0 as metric_num_pm, 789.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 89 as metric_numerator_value, 474 as metric_denominator_value, 17 as points_earned, '2023-11-01 00:00:00' as period_date, 100.0 as metric_num_pm, 555.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 36 as metric_numerator_value, 153 as metric_denominator_value, 1 as points_earned, '2023-12-01 00:00:00' as period_date, 89.0 as metric_num_pm, 474.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1002' as department_id, 'Borealis' as department_name, '1' as metric_id, 'Hospitalization Rate' as metric_name, 78 as metric_numerator_value, 712 as metric_denominator_value, 24 as points_earned, '2024-01-01 00:00:00' as period_date, 36.0 as metric_num_pm, 153.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 39 as metric_numerator_value, 913 as metric_denominator_value, 46 as points_earned, '2022-12-01 00:00:00' as period_date, 34.0 as metric_num_pm, 34.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 66 as metric_numerator_value, 718 as metric_denominator_value, 44 as points_earned, '2023-01-01 00:00:00' as period_date, 39.0 as metric_num_pm, 913.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 62 as metric_numerator_value, 847 as metric_denominator_value, 49 as points_earned, '2023-02-01 00:00:00' as period_date, 66.0 as metric_num_pm, 718.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 25 as metric_numerator_value, 990 as metric_denominator_value, 10 as points_earned, '2023-03-01 00:00:00' as period_date, 62.0 as metric_num_pm, 847.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 90 as metric_numerator_value, 940 as metric_denominator_value, 17 as points_earned, '2023-04-01 00:00:00' as period_date, 25.0 as metric_num_pm, 990.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 26 as metric_numerator_value, 465 as metric_denominator_value, 29 as points_earned, '2023-05-01 00:00:00' as period_date, 90.0 as metric_num_pm, 940.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 69 as metric_numerator_value, 760 as metric_denominator_value, 43 as points_earned, '2023-06-01 00:00:00' as period_date, 26.0 as metric_num_pm, 465.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 32 as metric_numerator_value, 880 as metric_denominator_value, 32 as points_earned, '2023-07-01 00:00:00' as period_date, 69.0 as metric_num_pm, 760.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 31 as metric_numerator_value, 1000 as metric_denominator_value, 36 as points_earned, '2023-08-01 00:00:00' as period_date, 32.0 as metric_num_pm, 880.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 18 as metric_numerator_value, 307 as metric_denominator_value, 8 as points_earned, '2023-09-01 00:00:00' as period_date, 31.0 as metric_num_pm, 1000.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 99 as metric_numerator_value, 996 as metric_denominator_value, 38 as points_earned, '2023-10-01 00:00:00' as period_date, 18.0 as metric_num_pm, 307.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 20 as metric_numerator_value, 194 as metric_denominator_value, 21 as points_earned, '2023-11-01 00:00:00' as period_date, 99.0 as metric_num_pm, 996.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 32 as metric_numerator_value, 946 as metric_denominator_value, 13 as points_earned, '2023-12-01 00:00:00' as period_date, 20.0 as metric_num_pm, 194.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1002' as department_id, 'Borealis' as department_name, '5' as metric_id, 'Immunization Rate' as metric_name, 69 as metric_numerator_value, 927 as metric_denominator_value, 16 as points_earned, '2024-01-01 00:00:00' as period_date, 32.0 as metric_num_pm, 946.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 21 as metric_numerator_value, 815 as metric_denominator_value, 45 as points_earned, '2022-12-01 00:00:00' as period_date, 33.0 as metric_num_pm,800.0  as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 24 as metric_numerator_value, 960 as metric_denominator_value, 1 as points_earned, '2023-01-01 00:00:00' as period_date, 21.0 as metric_num_pm, 815.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 55 as metric_numerator_value, 529 as metric_denominator_value, 3 as points_earned, '2023-02-01 00:00:00' as period_date, 24.0 as metric_num_pm, 960.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 79 as metric_numerator_value, 121 as metric_denominator_value, 17 as points_earned, '2023-03-01 00:00:00' as period_date, 55.0 as metric_num_pm, 529.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 66 as metric_numerator_value, 194 as metric_denominator_value, 31 as points_earned, '2023-04-01 00:00:00' as period_date, 79.0 as metric_num_pm, 121.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 32 as metric_numerator_value, 865 as metric_denominator_value, 31 as points_earned, '2023-05-01 00:00:00' as period_date, 66.0 as metric_num_pm, 194.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 29 as metric_numerator_value, 549 as metric_denominator_value, 38 as points_earned, '2023-06-01 00:00:00' as period_date, 32.0 as metric_num_pm, 865.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 40 as metric_numerator_value, 728 as metric_denominator_value, 23 as points_earned, '2023-07-01 00:00:00' as period_date, 29.0 as metric_num_pm, 549.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 84 as metric_numerator_value, 641 as metric_denominator_value, 38 as points_earned, '2023-08-01 00:00:00' as period_date, 40.0 as metric_num_pm, 728.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 84 as metric_numerator_value, 449 as metric_denominator_value, 30 as points_earned, '2023-09-01 00:00:00' as period_date, 84.0 as metric_num_pm, 641.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 60 as metric_numerator_value, 572 as metric_denominator_value, 4 as points_earned, '2023-10-01 00:00:00' as period_date, 84.0 as metric_num_pm, 449.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 90 as metric_numerator_value, 348 as metric_denominator_value, 8 as points_earned, '2023-11-01 00:00:00' as period_date, 60.0 as metric_num_pm, 572.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 18 as metric_numerator_value, 462 as metric_denominator_value, 32 as points_earned, '2023-12-01 00:00:00' as period_date, 90.0 as metric_num_pm, 348.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1002' as department_id, 'Borealis' as department_name, '6' as metric_id, 'Mortality Rate' as metric_name, 36 as metric_numerator_value, 183 as metric_denominator_value, 38 as points_earned, '2024-01-01 00:00:00' as period_date, 18.0 as metric_num_pm, 462.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 20 as metric_numerator_value, 718 as metric_denominator_value, 32 as points_earned, '2022-12-01 00:00:00' as period_date, 11.0 as metric_num_pm, 700.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 10 as metric_numerator_value, 368 as metric_denominator_value, 39 as points_earned, '2023-01-01 00:00:00' as period_date, 20.0 as metric_num_pm, 718.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 59 as metric_numerator_value, 454 as metric_denominator_value, 50 as points_earned, '2023-02-01 00:00:00' as period_date, 10.0 as metric_num_pm, 368.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 81 as metric_numerator_value, 552 as metric_denominator_value, 33 as points_earned, '2023-03-01 00:00:00' as period_date, 59.0 as metric_num_pm, 454.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 61 as metric_numerator_value, 939 as metric_denominator_value, 46 as points_earned, '2023-04-01 00:00:00' as period_date, 81.0 as metric_num_pm, 552.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 10 as metric_numerator_value, 117 as metric_denominator_value, 23 as points_earned, '2023-05-01 00:00:00' as period_date, 61.0 as metric_num_pm, 939.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 16 as metric_numerator_value, 409 as metric_denominator_value, 48 as points_earned, '2023-06-01 00:00:00' as period_date, 10.0 as metric_num_pm, 117.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 10 as metric_numerator_value, 530 as metric_denominator_value, 49 as points_earned, '2023-07-01 00:00:00' as period_date, 16.0 as metric_num_pm, 409.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 59 as metric_numerator_value, 616 as metric_denominator_value, 48 as points_earned, '2023-08-01 00:00:00' as period_date, 10.0 as metric_num_pm, 530.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 69 as metric_numerator_value, 687 as metric_denominator_value, 39 as points_earned, '2023-09-01 00:00:00' as period_date, 59.0 as metric_num_pm, 616.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 48 as metric_numerator_value, 392 as metric_denominator_value, 6 as points_earned, '2023-10-01 00:00:00' as period_date, 69.0 as metric_num_pm, 687.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 63 as metric_numerator_value, 450 as metric_denominator_value, 13 as points_earned, '2023-11-01 00:00:00' as period_date, 48.0 as metric_num_pm, 392.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 30 as metric_numerator_value, 574 as metric_denominator_value, 33 as points_earned, '2023-12-01 00:00:00' as period_date, 63.0 as metric_num_pm, 450.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1002' as department_id, 'Borealis' as department_name, '4' as metric_id, 'Readmissions Rate' as metric_name, 44 as metric_numerator_value, 619 as metric_denominator_value, 40 as points_earned, '2024-01-01 00:00:00' as period_date, 30.0 as metric_num_pm, 574.0 as metric_den_pm UNION ALL
+SELECT '122022' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 68 as metric_numerator_value, 843 as metric_denominator_value, 30 as points_earned, '2022-12-01 00:00:00' as period_date, 65.0 as metric_num_pm, 800.0 as metric_den_pm UNION ALL
+SELECT '12023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 97 as metric_numerator_value, 316 as metric_denominator_value, 13 as points_earned, '2023-01-01 00:00:00' as period_date, 68.0 as metric_num_pm, 843.0 as metric_den_pm UNION ALL
+SELECT '22023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 57 as metric_numerator_value, 774 as metric_denominator_value, 31 as points_earned, '2023-02-01 00:00:00' as period_date, 97.0 as metric_num_pm, 316.0 as metric_den_pm UNION ALL
+SELECT '32023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 13 as metric_numerator_value, 636 as metric_denominator_value, 2 as points_earned, '2023-03-01 00:00:00' as period_date, 57.0 as metric_num_pm, 774.0 as metric_den_pm UNION ALL
+SELECT '42023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 19 as metric_numerator_value, 899 as metric_denominator_value, 35 as points_earned, '2023-04-01 00:00:00' as period_date, 13.0 as metric_num_pm, 636.0 as metric_den_pm UNION ALL
+SELECT '52023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 48 as metric_numerator_value, 633 as metric_denominator_value, 43 as points_earned, '2023-05-01 00:00:00' as period_date, 19.0 as metric_num_pm, 899.0 as metric_den_pm UNION ALL
+SELECT '62023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 53 as metric_numerator_value, 202 as metric_denominator_value, 23 as points_earned, '2023-06-01 00:00:00' as period_date, 48.0 as metric_num_pm, 633.0 as metric_den_pm UNION ALL
+SELECT '72023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 29 as metric_numerator_value, 521 as metric_denominator_value, 21 as points_earned, '2023-07-01 00:00:00' as period_date, 53.0 as metric_num_pm, 202.0 as metric_den_pm UNION ALL
+SELECT '82023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 73 as metric_numerator_value, 192 as metric_denominator_value, 35 as points_earned, '2023-08-01 00:00:00' as period_date, 29.0 as metric_num_pm, 521.0 as metric_den_pm UNION ALL
+SELECT '92023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 53 as metric_numerator_value, 219 as metric_denominator_value, 48 as points_earned, '2023-09-01 00:00:00' as period_date, 73.0 as metric_num_pm, 192.0 as metric_den_pm UNION ALL
+SELECT '102023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 95 as metric_numerator_value, 382 as metric_denominator_value, 1 as points_earned, '2023-10-01 00:00:00' as period_date, 53.0 as metric_num_pm, 219.0 as metric_den_pm UNION ALL
+SELECT '112023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 17 as metric_numerator_value, 340 as metric_denominator_value, 44 as points_earned, '2023-11-01 00:00:00' as period_date, 95.0 as metric_num_pm, 382.0 as metric_den_pm UNION ALL
+SELECT '122023' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 15 as metric_numerator_value, 982 as metric_denominator_value, 6 as points_earned, '2023-12-01 00:00:00' as period_date, 17.0 as metric_num_pm, 340.0 as metric_den_pm UNION ALL
+SELECT '12024' as period_month, '1002' as department_id, 'Borealis' as department_name, '3' as metric_id, 'Treatment Charge' as metric_name, 42 as metric_numerator_value, 905 as metric_denominator_value, 24 as points_earned, '2024-01-01 00:00:00' as period_date, 15.0 as metric_num_pm, 982.0 as metric_den_pm ;;
+
+  }
+
+  dimension: period_month {
+    type: string
+    sql: ${TABLE}.period_month ;;
+    order_by_field: period_month_date
+  }
+
+  # Convert period_month to a date and format as 'Jan-2024'
+  dimension: month_display {
+    type: string
+    sql: FORMAT_TIMESTAMP('%b-%Y',
+            PARSE_DATE('%m%Y',
+              CASE
+                WHEN LENGTH(${period_month}) = 5 THEN CONCAT('0', ${period_month})
+                ELSE ${period_month}
+              END
+            )
+          ) ;;
+    order_by_field: period_month_date
+
+  }
+
+  dimension: period_month_date {
+    type: date
+    sql: ${TABLE}.period_date ;;
+  }
+
+
+  dimension: department_id {
+    type: number
+    sql: ${TABLE}.department_id ;;
+  }
+
+  dimension: department_name {
+    type: string
+    sql: ${TABLE}.department_name ;;
+
+  }
+
+  dimension: metric_id {
+    type: number
+    sql: ${TABLE}.metric_id ;;
+  }
+
+  #Concatenate Department ID and Department Name
+  dimension: department_display {
+    type: string
+    sql: ${department_id} || ' - ' || ${department_name} ;;
+  }
+
+  dimension: metric_name {
+    type: string
+    sql: ${TABLE}.metric_name ;;
+  }
+
+  dimension: metric_numerator_value {
+    type: number
+    sql: ${TABLE}.metric_numerator_value ;;
+  }
+
+  dimension: metric_denominator_value {
+    type: number
+    sql: ${TABLE}.metric_denominator_value ;;
+  }
+
+  dimension: metric_num_pm {
+    type: number
+    sql: ${TABLE}.metric_num_pm ;;
+  }
+
+  dimension: metric_den_pm {
+    type: number
+    sql: ${TABLE}.metric_den_pm ;;
+  }
+
+  dimension: points_earned {
+    type: number
+    sql: ${TABLE}.points_earned ;;
+  }
+
+  dimension: Points_earned_formatted {
+    type: string
+    sql: ${TABLE}.points_earned ;;
+    html: {% if value > 22 %}
+          <p style="color: grey; background-color: lightgrey; font-size: 110%; text-align: center; border-radius: 5px; font-weight: bold">{{ rendered_value }}</p>
+        {% else %}
+          <p style="color: grey; font-size: 90%; text-align: center; font-style: italic">{{ rendered_value }}</p>
+        {% endif %} ;;
+  }
+
+
+  dimension: metric_rate {
+    type: number
+    sql: SAFE_DIVIDE(${metric_numerator_value}, ${metric_denominator_value}) ;;
+    value_format: "#.00%"
+  }
+
+  # Calculate the previous month's metric rate
+  dimension: previous_month_rate {
+    type: number
+    sql: SAFE_DIVIDE(${metric_num_pm}, ${metric_den_pm}) ;;
+    value_format: "#.00%"
+  }
+
+  dimension: trend_indicator_icon {
+    type: string
+    sql: CASE
+           WHEN ${metric_rate} >= ${previous_month_rate} THEN ''
+           WHEN ${metric_rate} < ${previous_month_rate} THEN ''
+         END ;;
+  }
+
+  # Trend indicator based on the comparison between current and previous month's rates
+  dimension: trend_indicator {
+    type: string
+    sql: CASE
+           WHEN ${metric_rate} >= ${previous_month_rate} THEN '1'
+           WHEN ${metric_rate} < ${previous_month_rate} THEN '0'
+         END ;;
+    html:"
+        <style>
+        @font-face {
+           font-family: 'Davita Icons';
+           src: url('DavitaIcons-Regular.otf') format('.otf');
+         }
+        </style>
+         <p style="font-family:"Davita Icons"; color:green">{'}</p> ";;
+  }
+
+  measure: total_points_earned {
+    type: sum
+    sql: ${points_earned} ;;
+  }
+
+  measure: avg_metric_rate {
+    type: average
+    sql: ${metric_rate};;
+    value_format: "#.00%"
+  }
+
+  measure: avg_metric_rate_display {
+    type: string
+    sql: ${avg_metric_rate} ;;
+    value_format: "#.##%"
+    html: <p style='background-color:yellow;'>Department Final Score: <strong>{{ rendered_value }}</strong></p> ;;
+  }
+
+
+}
